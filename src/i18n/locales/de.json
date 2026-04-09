@@ -1,0 +1,115 @@
+{
+  "seo": {
+    "title": "Elybela Glow | Massagen & Schönheitsbehandlungen in Platja d'Aro",
+    "description": "Schönheits- und Wellnesszentrum in Platja d'Aro, Costa Brava. Entspannungsmassagen, Maderoterapia, Wimpern- und Brauenlifting. Termin buchen via WhatsApp oder Booksy."
+  },
+  "nav": {
+    "home": "Startseite",
+    "services": "Behandlungen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "cta": "Über WhatsApp buchen"
+  },
+  "hero": {
+    "headline": "Dein Moment beginnt hier",
+    "subheadline": "Schönheits- und Wellnesszentrum in Platja d'Aro · Costa Brava",
+    "ctaPrimary": "Über WhatsApp buchen",
+    "ctaSecondary": "Behandlungen ansehen"
+  },
+  "about": {
+    "title": "Entdecke Elybela Glow",
+    "text": "Entdecke Elybela Glow, deine Schönheits- und Wellness-Oase in Platja d'Aro. Ein exklusiver Ort, an dem jedes Detail darauf ausgerichtet ist, dass du abschaltest, dich entspannst und dich einzigartig fühlst. Lass dich mit unseren entspannenden Massagen, Maderoterapia-Behandlungen und professionellen Wimpernservices verwöhnen, die deine natürliche Schönheit betonen und deine Energie erneuern.",
+    "pillars": {
+      "exclusive": {
+        "title": "Exklusive Behandlungen",
+        "desc": "Jede Sitzung auf deine Bedürfnisse zugeschnitten"
+      },
+      "natural": {
+        "title": "Natürliche Zutaten",
+        "desc": "Sorgfältig ausgewählte Produkte"
+      },
+      "personal": {
+        "title": "Persönliche Erfahrung",
+        "desc": "Dein Wohlbefinden, unsere Priorität"
+      }
+    }
+  },
+  "services": {
+    "title": "Unsere Behandlungen",
+    "subtitle": "Jede Behandlung darauf ausgelegt, deine Energie zu erneuern und deine natürliche Schönheit zu betonen",
+    "bookBtn": "Buchen",
+    "items": {
+      "masajeRelajante": {
+        "name": "Entspannungsmassage",
+        "benefits": ["Reduziert Stress und Angst", "Lindert Muskelverspannungen", "Verbessert die Schlafqualität"]
+      },
+      "masajeFacial": {
+        "name": "Gesichtsmassage",
+        "benefits": ["Strafft Gesichtsmuskel", "Verbessert die Durchblutung", "Reduziert Schwellungen und Falten"]
+      },
+      "maderoterapia": {
+        "name": "Maderoterapia",
+        "benefits": ["Reduziert Cellulite", "Formt und definiert die Figur", "Entgiftet den Körper"]
+      },
+      "wellnessManos": {
+        "name": "Wellness Hände",
+        "benefits": ["Lindert Schmerzen in Handgelenken und Fingern", "Verbessert die Gelenkflexibilität"]
+      },
+      "wellnessPies": {
+        "name": "Wellness Füße",
+        "benefits": ["Linderung für Füße und Knöchel", "Aktiviert Reflexzonenpunkte"]
+      },
+      "descontracturante": {
+        "name": "Tiefenmassage",
+        "benefits": ["Löst angesammelte Verspannungen", "Erhöht die Muskelbeweglichkeit"]
+      },
+      "pestanasPostizas": {
+        "name": "Wimpernverlängerung",
+        "benefits": ["Professionell angebrachte Extensions", "Betont den Blick auf natürliche Weise"]
+      },
+      "liftingPestanas": {
+        "name": "Wimpernlifting",
+        "benefits": ["Hebt und kräuselt natürliche Wimpern", "Ohne Extensions, langanhaltender Effekt"]
+      },
+      "liftingCejas": {
+        "name": "Brauenlifting",
+        "benefits": ["Definiert die Brauenform", "Jugendlicher Look ohne Make-up"]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Kundinnen sagen",
+    "items": [
+      {
+        "text": "Ich bin vollkommen erholt gegangen. Die Entspannungsmassage war ein unglaubliches Erlebnis, Yelenas Hände sind magisch. Die Atmosphäre ist einladend und sehr professionell.",
+        "name": "Laura Martínez",
+        "service": "Entspannungsmassage"
+      },
+      {
+        "text": "Mein Wimpernlifting hielt wochenlang und sah perfekt aus. Ich liebe das Gefühl beim Herausgehen – natürlich und strahlend. Ein Schönheitszentrum, das wirklich auf jedes Detail achtet.",
+        "name": "Marta García",
+        "service": "Wimpernlifting"
+      },
+      {
+        "text": "Die Maderoterapia hat alle meine Erwartungen übertroffen. Den Unterschied spürte ich bereits nach der ersten Sitzung. Die Behandlung ist sehr persönlich und die Umgebung ist einfach wunderschön.",
+        "name": "Sofía Ramos",
+        "service": "Maderoterapia"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Bereit für deinen Wellnessmoment?",
+    "text": "Buche deinen Termin und lass dich verwöhnen. Wir freuen uns, dich im Herzen von Platja d'Aro willkommen zu heißen.",
+    "ctaPrimary": "Über WhatsApp buchen",
+    "ctaSecondary": "Bei Booksy buchen"
+  },
+  "footer": {
+    "address": "C/Mossèn Cinto Verdaguer 11, 17250, Platja d'Aro",
+    "phone": "+34 602 62 35 56",
+    "email": "elybela@elybelaglow.com",
+    "schedule": "Montag – Samstag: 9:00 – 20:00 Uhr",
+    "links": "Navigation",
+    "follow": "Folge uns",
+    "copyright": "© 2025 Elybela Glow · Alle Rechte vorbehalten."
+  }
+}

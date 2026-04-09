@@ -1,0 +1,115 @@
+{
+  "seo": {
+    "title": "Elybela Glow | Massatges i Tractaments de Bellesa a Platja d'Aro",
+    "description": "Centre de bellesa i benestar a Platja d'Aro, Costa Brava. Massatges relaxants, maderoterapia, lifting de pestanyes i celles. Reserva la teva cita per WhatsApp o Booksy."
+  },
+  "nav": {
+    "home": "Inici",
+    "services": "Serveis",
+    "about": "Nosaltres",
+    "contact": "Contacte",
+    "cta": "Reservar per WhatsApp"
+  },
+  "hero": {
+    "headline": "El Teu Moment Comença Aquí",
+    "subheadline": "Centre de bellesa i benestar a Platja d'Aro · Costa Brava",
+    "ctaPrimary": "Reservar per WhatsApp",
+    "ctaSecondary": "Veure Serveis"
+  },
+  "about": {
+    "title": "Descobreix Elybela Glow",
+    "text": "Descobreix Elybela Glow, el teu oasi de bellesa i benestar a Platja d'Aro. Un espai exclusiu on cada detall està dissenyat perquè desconnectis, et relaxis i et sentis única. Deixa't mimar amb els nostres massatges relaxants, tractaments de maderoterapia i serveis professionals de pestanyes, creats per realçar la teva bellesa natural i renovar la teva energia.",
+    "pillars": {
+      "exclusive": {
+        "title": "Tractaments exclusius",
+        "desc": "Cada sessió adaptada a les teves necessitats"
+      },
+      "natural": {
+        "title": "Ingredients naturals",
+        "desc": "Productes seleccionats amb cura"
+      },
+      "personal": {
+        "title": "Experiència personalitzada",
+        "desc": "El teu benestar, la nostra prioritat"
+      }
+    }
+  },
+  "services": {
+    "title": "Els Nostres Tractaments",
+    "subtitle": "Cada servei dissenyat per renovar la teva energia i realçar la teva bellesa natural",
+    "bookBtn": "Reservar",
+    "items": {
+      "masajeRelajante": {
+        "name": "Massatge Relaxant",
+        "benefits": ["Redueix l'estrès i l'ansietat", "Alleugereix la tensió muscular", "Millora la qualitat del son"]
+      },
+      "masajeFacial": {
+        "name": "Massatge Facial",
+        "benefits": ["Tonifica els músculs facials", "Millora la circulació", "Redueix la inflor i les arrugues"]
+      },
+      "maderoterapia": {
+        "name": "Maderoterapia",
+        "benefits": ["Redueix la cel·lulitis", "Esculpeix i defineix la figura", "Desintoxica l'organisme"]
+      },
+      "wellnessManos": {
+        "name": "Wellness Mans",
+        "benefits": ["Alleuja el dolor als canells i dits", "Millora la flexibilitat articular"]
+      },
+      "wellnessPies": {
+        "name": "Wellness Peus",
+        "benefits": ["Alleujament de peus i turmells", "Activa punts de reflexologia"]
+      },
+      "descontracturante": {
+        "name": "Massatge Descontracturant",
+        "benefits": ["Allibera la tensió acumulada", "Augmenta la mobilitat muscular"]
+      },
+      "pestanasPostizas": {
+        "name": "Pestanyes Postisses",
+        "benefits": ["Extensions d'aplicació professional", "Realça la mirada de forma natural"]
+      },
+      "liftingPestanas": {
+        "name": "Lifting de Pestanyes",
+        "benefits": ["Eleva i risa la pestanya natural", "Sense extensions, efecte durador"]
+      },
+      "liftingCejas": {
+        "name": "Lifting de Celles",
+        "benefits": ["Defineix la forma de les celles", "Aspecte juvenil sense maquillatge"]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "El que diuen les nostres clientes",
+    "items": [
+      {
+        "text": "Vaig marxar completament renovada. El massatge relaxant va ser una experiència increïble, les mans d'Elybela són màgiques. L'ambient és acollidor i molt professional.",
+        "name": "Laura Martínez",
+        "service": "Massatge Relaxant"
+      },
+      {
+        "text": "El lifting de pestanyes em va durar setmanes i va quedar perfectíssim. M'encanta com em sento en sortir, natural i radiant. Un centre de bellesa que cuida cada detall.",
+        "name": "Marta García",
+        "service": "Lifting de Pestanyes"
+      },
+      {
+        "text": "La maderoterapia va superar totes les meves expectatives. Vaig notar la diferència des de la primera sessió. El tracte és molt personalitzat i l'entorn és simplement preciós.",
+        "name": "Sofía Ramos",
+        "service": "Maderoterapia"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Llesta per al teu moment de benestar?",
+    "text": "Reserva la teva cita i deixa't mimar. T'esperem al cor de Platja d'Aro.",
+    "ctaPrimary": "Reservar per WhatsApp",
+    "ctaSecondary": "Reservar a Booksy"
+  },
+  "footer": {
+    "address": "C/Mossèn Cinto Verdaguer 11, 17250, Platja d'Aro",
+    "phone": "+34 602 62 35 56",
+    "email": "elybela@elybelaglow.com",
+    "schedule": "Dilluns – Dissabte: 9:00 – 20:00",
+    "links": "Navegació",
+    "follow": "Segueix-nos",
+    "copyright": "© 2025 Elybela Glow · Tots els drets reservats."
+  }
+}

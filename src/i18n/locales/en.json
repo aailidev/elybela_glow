@@ -1,0 +1,115 @@
+{
+  "seo": {
+    "title": "Elybela Glow | Massages & Beauty Treatments in Platja d'Aro",
+    "description": "Beauty and wellness centre in Platja d'Aro, Costa Brava. Relaxing massages, maderoterapia, lash and brow lifting. Book your appointment via WhatsApp or Booksy."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Book via WhatsApp"
+  },
+  "hero": {
+    "headline": "Your Moment Starts Here",
+    "subheadline": "Beauty and wellness centre in Platja d'Aro · Costa Brava",
+    "ctaPrimary": "Book via WhatsApp",
+    "ctaSecondary": "View Services"
+  },
+  "about": {
+    "title": "Discover Elybela Glow",
+    "text": "Discover Elybela Glow, your beauty and wellness oasis in Platja d'Aro. An exclusive space where every detail is designed for you to disconnect, relax and feel unique. Treat yourself to our relaxing massages, maderoterapia treatments and professional lash services, created to enhance your natural beauty and renew your energy.",
+    "pillars": {
+      "exclusive": {
+        "title": "Exclusive treatments",
+        "desc": "Each session tailored to your needs"
+      },
+      "natural": {
+        "title": "Natural ingredients",
+        "desc": "Carefully selected products"
+      },
+      "personal": {
+        "title": "Personalised experience",
+        "desc": "Your wellbeing, our priority"
+      }
+    }
+  },
+  "services": {
+    "title": "Our Treatments",
+    "subtitle": "Every service designed to renew your energy and enhance your natural beauty",
+    "bookBtn": "Book Now",
+    "items": {
+      "masajeRelajante": {
+        "name": "Relaxing Massage",
+        "benefits": ["Reduces stress and anxiety", "Relieves muscle tension", "Improves sleep quality"]
+      },
+      "masajeFacial": {
+        "name": "Facial Massage",
+        "benefits": ["Tones facial muscles", "Improves circulation", "Reduces puffiness and wrinkles"]
+      },
+      "maderoterapia": {
+        "name": "Maderoterapia",
+        "benefits": ["Reduces cellulite", "Sculpts and defines the figure", "Detoxifies the body"]
+      },
+      "wellnessManos": {
+        "name": "Wellness Hands",
+        "benefits": ["Relieves pain in wrists and fingers", "Improves joint flexibility"]
+      },
+      "wellnessPies": {
+        "name": "Wellness Feet",
+        "benefits": ["Foot and ankle relief", "Activates reflexology points"]
+      },
+      "descontracturante": {
+        "name": "Deep Tissue Massage",
+        "benefits": ["Releases accumulated tension", "Increases muscle mobility"]
+      },
+      "pestanasPostizas": {
+        "name": "Lash Extensions",
+        "benefits": ["Professional application extensions", "Enhances the gaze naturally"]
+      },
+      "liftingPestanas": {
+        "name": "Lash Lifting",
+        "benefits": ["Lifts and curls natural lashes", "No extensions, long-lasting effect"]
+      },
+      "liftingCejas": {
+        "name": "Brow Lifting",
+        "benefits": ["Defines brow shape", "Youthful look without makeup"]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "What our clients say",
+    "items": [
+      {
+        "text": "I left feeling completely renewed. The relaxing massage was an incredible experience, Elybela's hands are magical. The atmosphere is welcoming and very professional.",
+        "name": "Laura Martínez",
+        "service": "Relaxing Massage"
+      },
+      {
+        "text": "My lash lifting lasted for weeks and looked perfect. I love how I feel walking out — natural and radiant. A beauty centre that truly cares about every detail.",
+        "name": "Marta García",
+        "service": "Lash Lifting"
+      },
+      {
+        "text": "The maderoterapia exceeded all my expectations. I noticed the difference from the very first session. The treatment is very personalised and the setting is simply beautiful.",
+        "name": "Sofía Ramos",
+        "service": "Maderoterapia"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Ready for your wellness moment?",
+    "text": "Book your appointment and treat yourself. We look forward to welcoming you in the heart of Platja d'Aro.",
+    "ctaPrimary": "Book via WhatsApp",
+    "ctaSecondary": "Book on Booksy"
+  },
+  "footer": {
+    "address": "C/Mossèn Cinto Verdaguer 11, 17250, Platja d'Aro",
+    "phone": "+34 602 62 35 56",
+    "email": "elybela@elybelaglow.com",
+    "schedule": "Monday – Saturday: 9:00 – 20:00",
+    "links": "Navigation",
+    "follow": "Follow us",
+    "copyright": "© 2025 Elybela Glow · All rights reserved."
+  }
+}

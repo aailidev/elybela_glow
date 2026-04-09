@@ -1,0 +1,115 @@
+{
+  "seo": {
+    "title": "Elybela Glow | Masaje și Tratamente de Frumusețe în Platja d'Aro",
+    "description": "Centru de frumusețe și wellness în Platja d'Aro, Costa Brava. Masaje relaxante, maderoterapie, lifting gene și sprâncene. Rezervă-ți programul prin WhatsApp sau Booksy."
+  },
+  "nav": {
+    "home": "Acasă",
+    "services": "Servicii",
+    "about": "Despre noi",
+    "contact": "Contact",
+    "cta": "Rezervare WhatsApp"
+  },
+  "hero": {
+    "headline": "Momentul Tău Începe Aici",
+    "subheadline": "Centru de frumusețe și wellness în Platja d'Aro · Costa Brava",
+    "ctaPrimary": "Rezervare WhatsApp",
+    "ctaSecondary": "Vezi Serviciile"
+  },
+  "about": {
+    "title": "Descoperă Elybela Glow",
+    "text": "Descoperă Elybela Glow, oaza ta de frumusețe și wellness din Platja d'Aro. Un spațiu exclusiv în care fiecare detaliu este conceput pentru a te deconecta, relaxa și a te simți unică. Răsfață-te cu masajele noastre relaxante, tratamentele de maderoterapie și serviciile profesionale de gene, create pentru a-ți pune în valoare frumusețea naturală și a-ți reînnoi energia.",
+    "pillars": {
+      "exclusive": {
+        "title": "Tratamente exclusive",
+        "desc": "Fiecare ședință adaptată nevoilor tale"
+      },
+      "natural": {
+        "title": "Ingrediente naturale",
+        "desc": "Produse selecționate cu grijă"
+      },
+      "personal": {
+        "title": "Experiență personalizată",
+        "desc": "Bunăstarea ta, prioritatea noastră"
+      }
+    }
+  },
+  "services": {
+    "title": "Tratamentele Noastre",
+    "subtitle": "Fiecare serviciu conceput pentru a-ți reînnoi energia și a-ți evidenția frumusețea naturală",
+    "bookBtn": "Rezervă",
+    "items": {
+      "masajeRelajante": {
+        "name": "Masaj Relaxant",
+        "benefits": ["Reduce stresul și anxietatea", "Ameliorează tensiunea musculară", "Îmbunătățește calitatea somnului"]
+      },
+      "masajeFacial": {
+        "name": "Masaj Facial",
+        "benefits": ["Tonifică mușchii faciali", "Îmbunătățește circulația", "Reduce umflăturile și ridurile"]
+      },
+      "maderoterapia": {
+        "name": "Maderoterapie",
+        "benefits": ["Reduce celulita", "Sculptează și definește silueta", "Detoxifică organismul"]
+      },
+      "wellnessManos": {
+        "name": "Wellness Mâini",
+        "benefits": ["Ameliorează durerea la încheieturi și degete", "Îmbunătățește flexibilitatea articulară"]
+      },
+      "wellnessPies": {
+        "name": "Wellness Picioare",
+        "benefits": ["Ameliorarea picioarelor și gleznelor", "Activează punctele de reflexologie"]
+      },
+      "descontracturante": {
+        "name": "Masaj Decontracturant",
+        "benefits": ["Eliberează tensiunile acumulate", "Crește mobilitatea musculară"]
+      },
+      "pestanasPostizas": {
+        "name": "Gene false",
+        "benefits": ["Extensii cu aplicare profesională", "Evidențiază privirea în mod natural"]
+      },
+      "liftingPestanas": {
+        "name": "Lifting Gene",
+        "benefits": ["Ridică și ondulează genele naturale", "Fără extensii, efect durabil"]
+      },
+      "liftingCejas": {
+        "name": "Lifting Sprâncene",
+        "benefits": ["Definește forma sprâncenelor", "Aspect tânăr fără machiaj"]
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ce spun clientele noastre",
+    "items": [
+      {
+        "text": "Am plecat complet reînnoită. Masajul relaxant a fost o experiență incredibilă, mâinile Elybelei sunt magice. Atmosfera este primitoare și foarte profesionistă.",
+        "name": "Laura Martínez",
+        "service": "Masaj Relaxant"
+      },
+      {
+        "text": "Liftingul de gene mi-a durat săptămâni și a arătat perfect. Îmi place cum mă simt la ieșire — naturală și strălucitoare. Un centru de frumusețe care are grijă de fiecare detaliu.",
+        "name": "Marta García",
+        "service": "Lifting Gene"
+      },
+      {
+        "text": "Maderoterapia mi-a depășit toate așteptările. Am simțit diferența din prima ședință. Tratamentul este foarte personalizat, iar mediul este pur și simplu minunat.",
+        "name": "Sofía Ramos",
+        "service": "Maderoterapie"
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Pregătită pentru momentul tău de wellness?",
+    "text": "Rezervă-ți programul și lasă-te răsfățată. Te așteptăm în inima orașului Platja d'Aro.",
+    "ctaPrimary": "Rezervare WhatsApp",
+    "ctaSecondary": "Rezervare pe Booksy"
+  },
+  "footer": {
+    "address": "C/Mossèn Cinto Verdaguer 11, 17250, Platja d'Aro",
+    "phone": "+34 602 62 35 56",
+    "email": "elybela@elybelaglow.com",
+    "schedule": "Luni – Sâmbătă: 9:00 – 20:00",
+    "links": "Navigare",
+    "follow": "Urmărește-ne",
+    "copyright": "© 2025 Elybela Glow · Toate drepturile rezervate."
+  }
+}
