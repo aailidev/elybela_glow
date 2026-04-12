@@ -2,13 +2,36 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="logo.png" />
+    <link rel="icon" type="image/webp" href="logo.webp" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#FAF6F0" />
     <title>Elybela Glow | Masajes y Tratamientos de Belleza en Platja d'Aro</title>
-    <!-- Preconnect for Google Fonts performance -->
+
+    <!-- Preconnect to font origins BEFORE the stylesheet request -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!--
+      Non-blocking Google Fonts:
+      1. media="print" makes the browser download it as low-priority (non-blocking).
+      2. onload switches it to media="all" once downloaded, applying the styles.
+      3. <noscript> is the fallback for JS-disabled browsers.
+    -->
+    <link
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Lato:wght@300;400;700&display=swap"
+    />
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Lato:wght@300;400;700&display=swap"
+      />
+    </noscript>
+
+    <!-- Preload LCP hero image to reduce Largest Contentful Paint -->
+    <link rel="preload" as="image" href="/HeroImage.webp" fetchpriority="high" />
   </head>
   <body>
     <div id="root"></div>

@@ -60,9 +60,13 @@ export default function Hero() {
       <div ref={bgRef} className="absolute inset-0">
         <img
           ref={imgRef}
-          src="/HeroImage.png"
+          src="/HeroImage.webp"
           alt="Tratamiento facial de lujo en Elybela Glow, centro de belleza en Platja d'Aro"
           className="w-full h-full object-cover"
+          width="1920"
+          height="1080"
+          fetchpriority="high"
+          decoding="async"
         />
         {/* Gradiente inferior — legibilidad del texto */}
         <div

@@ -1,17 +1,21 @@
 // ─── i18n must be imported before any component that uses useTranslation ───
 import './i18n/index.js';
 
+import { lazy, Suspense } from 'react';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 
-import Navbar       from './components/Navbar';
-import Hero         from './components/Hero';
-import Marquee      from './components/Marquee';
-import About        from './components/About';
-import Services     from './components/Services';
-import Testimonials from './components/Testimonials';
-import CtaReserva   from './components/CtaReserva';
-import Footer       from './components/Footer';
+// Above-the-fold — load immediately
+import Navbar from './components/Navbar';
+import Hero   from './components/Hero';
+
+// Below-the-fold — lazy-load to reduce initial bundle & unblock FCP/LCP
+const Marquee      = lazy(() => import('./components/Marquee'));
+const About        = lazy(() => import('./components/About'));
+const Services     = lazy(() => import('./components/Services'));
+const Testimonials = lazy(() => import('./components/Testimonials'));
+const CtaReserva   = lazy(() => import('./components/CtaReserva'));
+const Footer       = lazy(() => import('./components/Footer'));
 
 // JSON-LD LocalBusiness structured data
 const jsonLd = {
@@ -107,13 +111,18 @@ export default function App() {
       <Navbar />
       <main>
         <Hero />
-        <Marquee />
-        <About />
-        <Services />
-        <Testimonials />
-        <CtaReserva />
+        {/* Lazy sections — load after the hero is painted */}
+        <Suspense fallback={null}>
+          <Marquee />
+          <About />
+          <Services />
+          <Testimonials />
+          <CtaReserva />
+        </Suspense>
       </main>
-      <Footer />
+      <Suspense fallback={null}>
+        <Footer />
+      </Suspense>
     </HelmetProvider>
   );
 }
