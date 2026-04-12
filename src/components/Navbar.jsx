@@ -87,7 +87,7 @@ export default function Navbar() {
             scrolled ? 'bg-cream' : 'bg-ebony/65 backdrop-blur-sm'
           }`}>
             <img
-              src="/logo.png"
+              src="/public/logo.png"
               alt="Elybela Glow"
               className="h-9 sm:h-12 w-auto block"
             />

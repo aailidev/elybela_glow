@@ -37,33 +37,33 @@ const StarIcon = () => (
   </svg>
 );
 
-const platforms = [
-  {
-    id: 'google',
-    href: GOOGLE_REVIEW_URL,
-    icon: <GoogleIcon />,
-    name: 'Google',
-    cta: 'Dejar reseña en Google',
-    desc: 'Comparte tu experiencia en Google Maps y ayuda a otras personas a encontrarnos.',
-  },
-  {
-    id: 'booksy',
-    href: BOOKSY_URL,
-    icon: <BooksyIcon />,
-    name: 'Booksy',
-    cta: 'Valorar en Booksy',
-    desc: 'Si reservaste a través de Booksy, puedes valorar el tratamiento directamente allí.',
-  },
-];
-
-const values = [
-  { num: '100%', label: 'Productos naturales' },
-  { num: '9',    label: 'Tratamientos' },
-  { num: '5★',   label: 'Es nuestro objetivo' },
-];
-
 export default function Testimonials() {
   const { t } = useTranslation();
+
+  const platforms = [
+    {
+      id: 'google',
+      href: GOOGLE_REVIEW_URL,
+      icon: <GoogleIcon />,
+      name: 'Google',
+      cta: t('testimonials.google.cta'),
+      desc: t('testimonials.google.desc'),
+    },
+    {
+      id: 'booksy',
+      href: BOOKSY_URL,
+      icon: <BooksyIcon />,
+      name: 'Booksy',
+      cta: t('testimonials.booksy.cta'),
+      desc: t('testimonials.booksy.desc'),
+    },
+  ];
+
+  const values = [
+    { num: '100%', label: t('testimonials.values.natural') },
+    { num: '9',    label: t('testimonials.values.treatments') },
+    { num: '5★',   label: t('testimonials.values.goal') },
+  ];
   const sectionRef = useRef(null);
 
   useEffect(() => {
@@ -96,7 +96,7 @@ export default function Testimonials() {
         <div className="reveal-item flex items-center gap-5 mb-6">
           <div className="gold-divider w-14 flex-shrink-0" />
           <p className="font-body text-xs font-semibold tracking-[0.22em] uppercase text-gold">
-            {t('testimonials.label', 'Reseñas')}
+            {t('testimonials.label')}
           </p>
         </div>
 
@@ -104,11 +104,11 @@ export default function Testimonials() {
           className="reveal-item font-display font-light text-cream leading-[0.92] mb-5 max-w-2xl"
           style={{ fontSize: 'clamp(2.2rem, 5vw, 4.5rem)' }}
         >
-          Sé de las primeras en compartir tu experiencia
+          {t('testimonials.heading')}
         </h2>
 
         <p className="reveal-item font-body text-cream/45 text-base leading-relaxed max-w-lg mb-14">
-          Acabamos de abrir. Cada visita nos importa y nos encantaría saber qué te pareció. Tu opinión nos ayuda a seguir mejorando.
+          {t('testimonials.subheading')}
         </p>
 
         {/* ── Platform CTA cards */}

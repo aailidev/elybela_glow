@@ -78,6 +78,22 @@
     }
   },
   "testimonials": {
+    "label": "Recenzii",
+    "heading": "Fii printre primele care își împărtășesc experiența",
+    "subheading": "Tocmai am deschis. Fiecare vizită contează pentru noi și am fi încântați să știm ce ai gândit. Opinia ta ne ajută să continuăm să ne îmbunătățim.",
+    "google": {
+      "cta": "Lasă o recenzie pe Google",
+      "desc": "Împărtășește-ți experiența pe Google Maps și ajută alte persoane să ne găsească."
+    },
+    "booksy": {
+      "cta": "Evaluează pe Booksy",
+      "desc": "Dacă ai rezervat prin Booksy, poți evalua tratamentul direct acolo."
+    },
+    "values": {
+      "natural": "Produse naturale",
+      "treatments": "Tratamente",
+      "goal": "Este obiectivul nostru"
+    },
     "title": "Ce spun clientele noastre",
     "items": [
       {

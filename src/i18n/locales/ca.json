@@ -78,6 +78,22 @@
     }
   },
   "testimonials": {
+    "label": "Ressenyes",
+    "heading": "Sigues de les primeres a compartir la teva experiència",
+    "subheading": "Acabem d'obrir. Cada visita ens importa i ens encantaria saber què et va semblar. La teva opinió ens ajuda a seguir millorant.",
+    "google": {
+      "cta": "Deixar ressenya a Google",
+      "desc": "Comparteix la teva experiència a Google Maps i ajuda altres persones a trobar-nos."
+    },
+    "booksy": {
+      "cta": "Valorar a Booksy",
+      "desc": "Si vas reservar a través de Booksy, pots valorar el tractament directament allà."
+    },
+    "values": {
+      "natural": "Productes naturals",
+      "treatments": "Tractaments",
+      "goal": "És el nostre objectiu"
+    },
     "title": "El que diuen les nostres clientes",
     "items": [
       {

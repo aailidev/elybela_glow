@@ -78,6 +78,22 @@
     }
   },
   "testimonials": {
+    "label": "Avis",
+    "heading": "Soyez parmi les premières à partager votre expérience",
+    "subheading": "Nous venons d'ouvrir. Chaque visite compte pour nous et nous adorerions savoir ce que vous en avez pensé. Votre avis nous aide à continuer à nous améliorer.",
+    "google": {
+      "cta": "Laisser un avis sur Google",
+      "desc": "Partagez votre expérience sur Google Maps et aidez d'autres personnes à nous trouver."
+    },
+    "booksy": {
+      "cta": "Évaluer sur Booksy",
+      "desc": "Si vous avez réservé via Booksy, vous pouvez évaluer votre soin directement là-bas."
+    },
+    "values": {
+      "natural": "Produits naturels",
+      "treatments": "Soins",
+      "goal": "Est notre objectif"
+    },
     "title": "Ce que disent nos clientes",
     "items": [
       {
