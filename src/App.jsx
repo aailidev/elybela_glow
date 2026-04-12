@@ -20,10 +20,11 @@ const Footer       = lazy(() => import('./components/Footer'));
 // JSON-LD LocalBusiness structured data
 const jsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'BeautySalon',
+  '@type': ['BeautySalon', 'HealthAndBeautyBusiness'],
   name: 'Elybela Glow',
+  alternateName: ['Elybela Glow Platja d\'Aro', 'Elybela Glow Playa de Aro'],
   description:
-    'Centro de belleza y bienestar en Platja d\'Aro. Masajes relajantes, maderoterapia y tratamientos de pestañas.',
+    'Centro de masajes y belleza en Platja d\'Aro (Playa de Aro), Costa Brava. Masajes relajantes, maderoterapia y tratamientos de pestañas.',
   url: 'https://www.elybelaglow.com',
   telephone: '+34602623556',
   email: 'elybela@elybelaglow.com',
@@ -40,16 +41,28 @@ const jsonLd = {
     latitude: 41.8165,
     longitude: 3.0677,
   },
+  areaServed: [
+    { '@type': 'City', name: "Platja d'Aro" },
+    { '@type': 'City', name: 'Playa de Aro' },
+    { '@type': 'AdministrativeArea', name: 'Costa Brava' },
+    { '@type': 'AdministrativeArea', name: 'Girona' },
+  ],
   openingHours: 'Mo-Sa 09:00-20:00',
   priceRange: '€€',
+  currenciesAccepted: 'EUR',
+  paymentAccepted: 'Cash, Credit Card',
   hasOfferCatalog: {
     '@type': 'OfferCatalog',
     name: 'Tratamientos Elybela Glow',
     itemListElement: [
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Masaje Relajante'     }, price: '40', priceCurrency: 'EUR' },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Maderoterapia'         }, price: '50', priceCurrency: 'EUR' },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lifting de Pestañas'   }, price: '40', priceCurrency: 'EUR' },
-      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lifting de Cejas'      }, price: '40', priceCurrency: 'EUR' },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Masaje Relajante Playa de Aro'   }, price: '40', priceCurrency: 'EUR' },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Masaje Facial'                   }, price: '40', priceCurrency: 'EUR' },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Masaje Descontracturante'         }, price: '40', priceCurrency: 'EUR' },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Maderoterapia'                    }, price: '50', priceCurrency: 'EUR' },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lifting de Pestañas'              }, price: '40', priceCurrency: 'EUR' },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Lifting de Cejas'                 }, price: '40', priceCurrency: 'EUR' },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Wellness Manos'                   }, price: '30', priceCurrency: 'EUR' },
+      { '@type': 'Offer', itemOffered: { '@type': 'Service', name: 'Wellness Pies'                    }, price: '30', priceCurrency: 'EUR' },
     ],
   },
 };
@@ -74,12 +87,12 @@ function SeoHead() {
       <html lang={i18n.language} />
       <title>{t('seo.title')}</title>
       <meta name="description"        content={t('seo.description')} />
-      <meta name="keywords"           content="masajes platja d'aro, centro belleza costa brava, maderoterapia girona, lifting pestañas platja d'aro, spa platja d'aro, wellness costa brava, masaje relajante girona" />
+      <meta name="keywords"           content="masaje playa de aro, masajes playa de aro, masaje platja d'aro, masajes platja d'aro, centro masajes playa de aro, spa playa de aro, spa platja d'aro, masaje relajante playa de aro, maderoterapia platja d'aro, maderoterapia playa de aro, lifting pestañas platja d'aro, centro belleza playa de aro, centro belleza platja d'aro, wellness costa brava, masaje costa brava, girona masajes" />
       <link rel="canonical"           href="https://www.elybelaglow.com" />
 
       {/* ── Open Graph */}
-      <meta property="og:title"       content="Elybela Glow | Tu Oasis de Belleza en Platja d'Aro" />
-      <meta property="og:description" content="Masajes, maderoterapia y tratamientos de pestañas en Platja d'Aro. Reserva tu momento de bienestar." />
+      <meta property="og:title"       content="Masaje Playa de Aro | Elybela Glow – Centro de Belleza y Bienestar" />
+      <meta property="og:description" content="Centro de masajes en Platja d'Aro (Playa de Aro), Costa Brava. Masajes relajantes, maderoterapia y tratamientos de pestañas. Reserva tu momento de bienestar." />
       <meta property="og:type"        content="website" />
       <meta property="og:url"         content="https://www.elybelaglow.com" />
       <meta property="og:image"       content="/og-image.jpg" />
