@@ -133,7 +133,7 @@ export default function About() {
             />
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-dark-brown/12">
               <img
-                src="public/womanGettingMassage.png"
+                src="womanGettingMassage.png"
                 alt="Interior del centro de belleza Elybela Glow en Platja d'Aro"
                 loading="lazy"
                 className="w-full h-[240px] sm:h-[340px] lg:h-[460px] object-cover"
