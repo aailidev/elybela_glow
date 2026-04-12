@@ -63,6 +63,6 @@ async function bootstrap() {
   });
 }
 
-bootstrap();
+export const i18nReady = bootstrap();
 
 export default i18n;
