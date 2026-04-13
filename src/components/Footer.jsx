@@ -37,7 +37,7 @@ export default function Footer() {
 
           <address className="not-italic flex flex-col gap-3 text-sm">
             <a
-              href="https://maps.google.com/?q=Carrer+Moss%C3%A8n+Cinto+Verdaguer+11,+17250+Platja+d'Aro"
+              href="https://www.google.com/maps/place/ElyBela+Glow/@41.8171807,3.0659193,17z/data=!3m1!4b1!4m6!3m5!1s0x12bb0141868779fb:0x51b7369743b9bcb8!8m2!3d41.8171807!4d3.0684942!16s%2Fg%2F11z2xydzf7?entry=ttu&g_ep=EgoyMDI2MDQwOC4wIKXMDSoASAFQAw%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Ver dirección en Google Maps"
