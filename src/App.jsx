@@ -25,7 +25,7 @@ const jsonLd = {
   alternateName: ['Elybela Glow Platja d\'Aro', 'Elybela Glow Playa de Aro'],
   description:
     'Centro de masajes y belleza en Platja d\'Aro (Playa de Aro), Costa Brava. Masajes relajantes, maderoterapia y tratamientos de pestañas.',
-  url: 'https://www.elybelaglow.com',
+  url: 'https://www.elybelaglow.com/',
   telephone: '+34602623556',
   email: 'elybela@elybelaglow.com',
   address: {
@@ -88,13 +88,13 @@ function SeoHead() {
       <title>{t('seo.title')}</title>
       <meta name="description"        content={t('seo.description')} />
       <meta name="keywords"           content="masaje playa de aro, masajes playa de aro, masaje platja d'aro, masajes platja d'aro, centro masajes playa de aro, spa playa de aro, spa platja d'aro, masaje relajante playa de aro, maderoterapia platja d'aro, maderoterapia playa de aro, lifting pestañas platja d'aro, centro belleza playa de aro, centro belleza platja d'aro, wellness costa brava, masaje costa brava, girona masajes" />
-      <link rel="canonical"           href="https://www.elybelaglow.com" />
+      <link rel="canonical"           href="https://www.elybelaglow.com/" />
 
       {/* ── Open Graph */}
       <meta property="og:title"       content="Masaje Playa de Aro | Elybela Glow – Centro de Belleza y Bienestar" />
       <meta property="og:description" content="Centro de masajes en Platja d'Aro (Playa de Aro), Costa Brava. Masajes relajantes, maderoterapia y tratamientos de pestañas. Reserva tu momento de bienestar." />
       <meta property="og:type"        content="website" />
-      <meta property="og:url"         content="https://www.elybelaglow.com" />
+      <meta property="og:url"         content="https://www.elybelaglow.com/" />
       <meta property="og:image"       content="/og-image.jpg" />
       <meta property="og:locale"      content="es_ES" />
 
